@@ -2,6 +2,10 @@
   <img src="assets/logo.svg" alt="dark-2026" width="96" />
 </p>
 
+<p align="center">
+  <img src="assets/yazi.png" alt="dark-2026" />
+</p>
+
 # dark-2026.yazi
 
 A Yazi flavor based on VS Code's **Dark Modern 2026** theme — red keywords, purple functions,
