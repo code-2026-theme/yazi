@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="assets/logo.svg" alt="dark-2026" width="96" />
+  <img src="assets/logo.svg" alt="code-2026" width="96" />
 </p>
 
 <p align="center">
-  <img src="assets/yazi.png" alt="dark-2026" />
+  <img src="assets/yazi.png" alt="code-2026" />
 </p>
 
-# dark-2026.yazi
+# code-2026.yazi
 
 Yazi flavors based on VS Code's **Dark Modern 2026** theme — red keywords, purple functions,
 teal types and light-blue strings. Available in dark and light variants.
@@ -39,13 +39,13 @@ Every port shares one palette, so your file manager and editor match exactly.
 
 ```bash
 # Via ya package manager
-ya pkg add yazi-rs/flavors:dark-2026
+ya pkg add yazi-rs/flavors:code-2026
 ```
 
 Or clone manually:
 
 ```bash
-git clone https://github.com/code-2026-theme/yazi ~/.config/yazi/flavors/dark-2026.yazi
+git clone https://github.com/code-2026-theme/yazi ~/.config/yazi/flavors/code-2026.yazi
 ```
 
 ## Usage
@@ -54,7 +54,7 @@ Set the content of your `~/.config/yazi/theme.toml`:
 
 ```toml
 [flavor]
-dark = "dark-2026"
+dark = "code-2026"
 # or for the light variant:
 dark = "light-2026"
 ```
@@ -68,7 +68,7 @@ Override specific styles in your `theme.toml` after the `[flavor]` section:
 
 ```toml
 [flavor]
-dark = "dark-2026"
+dark = "code-2026"
 
 [mgr]
 cwd = { fg = "#4ec9b0" }
