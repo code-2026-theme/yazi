@@ -45,7 +45,7 @@ ya pkg add yazi-rs/flavors:dark-2026
 Or clone manually:
 
 ```bash
-git clone https://github.com/dark-2026-theme/yazi ~/.config/yazi/flavors/dark-2026.yazi
+git clone https://github.com/code-2026-theme/yazi ~/.config/yazi/flavors/dark-2026.yazi
 ```
 
 ## Usage
