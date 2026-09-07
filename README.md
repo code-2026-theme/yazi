@@ -8,19 +8,19 @@
 
 # dark-2026.yazi
 
-A Yazi flavor based on VS Code's **Dark Modern 2026** theme — red keywords, purple functions,
-teal types and light-blue strings on a near-black `#121314` canvas.
+Yazi flavors based on VS Code's **Dark Modern 2026** theme — red keywords, purple functions,
+teal types and light-blue strings. Available in dark and light variants.
 
-## The dark-2026 family
+## The code-2026 family
 
 | Target  | Repository                                                            |                |
 | ------- | --------------------------------------------------------------------- | -------------- |
-| Neovim  | [dark-2026-theme/nvim](https://github.com/dark-2026-theme/nvim)       | colorscheme    |
-| Ghostty | [dark-2026-theme/ghostty](https://github.com/dark-2026-theme/ghostty) | terminal theme |
-| kitty   | [dark-2026-theme/kitty](https://github.com/dark-2026-theme/kitty)     | terminal theme |
-| Xcode   | [dark-2026-theme/xcode](https://github.com/dark-2026-theme/xcode)     | editor theme   |
-| Obsidian | [dark-2026-theme/obsidian](https://github.com/dark-2026-theme/obsidian) | app theme    |
-| Yazi    | [dark-2026-theme/yazi](https://github.com/dark-2026-theme/yazi)       | **this repo**  |
+| Neovim  | [code-2026-theme/nvim](https://github.com/code-2026-theme/nvim)       | colorscheme    |
+| Ghostty | [code-2026-theme/ghostty](https://github.com/code-2026-theme/ghostty) | terminal theme |
+| kitty   | [code-2026-theme/kitty](https://github.com/code-2026-theme/kitty)     | terminal theme |
+| Xcode   | [code-2026-theme/xcode](https://github.com/code-2026-theme/xcode)     | editor theme   |
+| Obsidian | [code-2026-theme/obsidian](https://github.com/code-2026-theme/obsidian) | app theme    |
+| Yazi    | [code-2026-theme/yazi](https://github.com/code-2026-theme/yazi)       | **this repo**  |
 
 Every port shares one palette, so your file manager and editor match exactly.
 
@@ -55,6 +55,8 @@ Set the content of your `~/.config/yazi/theme.toml`:
 ```toml
 [flavor]
 dark = "dark-2026"
+# or for the light variant:
+dark = "light-2026"
 ```
 
 Make sure your `theme.toml` doesn't contain anything other than `[flavor]`, unless you want
@@ -99,6 +101,31 @@ perm_write = { fg = "#ffa657" }
 | `err`        | `#ff7b72` | error states               |
 | `comment`    | `#8b949e` | muted text                 |
 | `debug`      | `#b267e6` | debug elements             |
+
+### Light palette
+
+| Key          | Value     | Role                       |
+| ------------ | --------- | -------------------------- |
+| `bg`         | `#FFFFFF` | editor background          |
+| `bg_alt`     | `#FAFAFD` | panels, inactive tabs      |
+| `bg_menu`    | `#FAFAFD` | floats, popups             |
+| `border`     | `#F0F1F2` | window separators          |
+| `border_alt` | `#E4E5E6` | float borders              |
+| `fg`         | `#202020` | default text               |
+| `fg_dim`     | `#606060` | secondary text             |
+| `fg_muted`   | `#999999` | line numbers, whitespace   |
+| `accent`     | `#0069CC` | cwd, borders, status       |
+| `keyword`    | `#cf222e` | cut markers, errors        |
+| `func`       | `#8250df` | archives, purple elements  |
+| `type`       | `#116329` | select mode, images        |
+| `string`     | `#0a3069` | dark blue accents          |
+| `annotation` | `#953800` | unset mode, permissions    |
+| `constant`   | `#0550ae` | blue accents               |
+| `ok`         | `#587c0c` | copied markers, success    |
+| `warn`       | `#667309` | selected markers, warnings |
+| `err`        | `#ad0707` | error states               |
+| `comment`    | `#6e7781` | muted text                 |
+| `debug`      | `#8250df` | debug elements             |
 
 ## License
 
