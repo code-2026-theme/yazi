@@ -51,7 +51,7 @@ Or use the install script:
 Or clone manually:
 
 ```bash
-git clone https://github.com/code-2026-theme/yazi ~/.config/yazi/flavors/code-2026.yazi
+git clone https://github.com/code-2026-theme/yazi ~/.config/yazi/flavors/dark-2026.yazi
 ```
 
 ## Usage
@@ -60,7 +60,7 @@ Set the content of your `~/.config/yazi/theme.toml`:
 
 ```toml
 [flavor]
-dark = "code-2026"
+dark = "dark-2026"
 # or for the light variant:
 light = "light-2026"
 ```
@@ -74,7 +74,7 @@ Override specific styles in your `theme.toml` after the `[flavor]` section:
 
 ```toml
 [flavor]
-dark = "code-2026"
+dark = "dark-2026"
 
 [mgr]
 cwd = { fg = "#4ec9b0" }

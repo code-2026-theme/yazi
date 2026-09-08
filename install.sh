@@ -2,7 +2,7 @@
 #
 # dark-2026 -- Yazi installer
 #
-# Copies code-2026.yazi and light-2026.yazi flavor directories into Yazi's
+# Copies dark-2026.yazi and light-2026.yazi flavor directories into Yazi's
 # flavors directory.
 #
 #   ./install.sh              install both flavors (backs up any existing copies)
@@ -14,7 +14,7 @@ set -euo pipefail
 SCRIPT_DIR="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
 FLAVOR_DIR="${YAZI_FLAVOR_DIR:-$HOME/.config/yazi/flavors}"
 
-FLAVORS=("code-2026" "light-2026")
+FLAVORS=("dark-2026" "light-2026")
 
 bold=''; dim=''; red=''; green=''; yellow=''; reset=''
 if [ -t 1 ]; then
@@ -103,7 +103,7 @@ cat <<EOF
 Next, set the flavor in ${bold}~/.config/yazi/theme.toml${reset}:
 
   ${dim}[flavor]${reset}
-  ${dim}dark = "code-2026"${reset}
+  ${dim}dark = "dark-2026"${reset}
 
 ${dim}Or for the light variant:${reset}
 
