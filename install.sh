@@ -108,5 +108,5 @@ Next, set the flavor in ${bold}~/.config/yazi/theme.toml${reset}:
 ${dim}Or for the light variant:${reset}
 
   ${dim}[flavor]${reset}
-  ${dim}dark = "light-2026"${reset}
+  ${dim}light = "light-2026"${reset}
 EOF

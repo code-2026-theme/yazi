@@ -62,7 +62,7 @@ Set the content of your `~/.config/yazi/theme.toml`:
 [flavor]
 dark = "code-2026"
 # or for the light variant:
-dark = "light-2026"
+light = "light-2026"
 ```
 
 Make sure your `theme.toml` doesn't contain anything other than `[flavor]`, unless you want
