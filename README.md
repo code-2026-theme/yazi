@@ -42,6 +42,12 @@ Every port shares one palette, so your file manager and editor match exactly.
 ya pkg add yazi-rs/flavors:code-2026
 ```
 
+Or use the install script:
+
+```sh
+./install.sh
+```
+
 Or clone manually:
 
 ```bash
